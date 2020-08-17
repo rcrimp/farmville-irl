@@ -1,0 +1,330 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <title>AgriGanics</title>
+  <style>
+    .row {
+      margin-bottom: 0;
+    }
+
+    .tabs .tab a{
+      color:#000;
+    } /*Black color to the text*/
+
+    .tabs .tab a:hover {
+      background-color:lightgrey;
+      color:#000;
+    } /*Text color on hover*/
+
+    .tabs .tab a.active {
+      background-color: lightgray;
+      color:#000;
+    } /*Background and text color when a tab is active*/
+
+    .tabs .indicator {
+      background-color: white;
+      height: 0px;
+    } /*Color of underline*/
+
+    .tabs-content {min-height: 90% !important;}
+
+  </style>
+</head>
+<body class="">
+
+  <!-- site content -->
+  <ul id="" class="tabs-fixed-width tabs">
+    <li class="tab col s3"><a class="red white-text" href="#tab-window-1">Farm</a></li>
+    <li class="tab col s3"><a class="blue white-text" href="#tab-window-2">Field</a></li>
+    <li class="tab col s3"><a class="green white-text" href="#tab-window-3">Crop</a></li>
+    <li class="tab col s3"><a class="orange white-text" href="#tab-window-4">Fertiliser</a></li>
+    <li class="tab col s3"><a class="purple white-text" href="#tab-window-5">Yield</a></li>
+  </ul>
+
+
+  <div id="tab-windows" class="row">
+    <div id="tab-window-1" class="red col s12">
+      <div class="row">
+        
+        <div class="col s12 m4">
+          <div class="card hoverable">
+            <div class="card-image">
+              <img src="img/sample-1.jpg" class="responsive-img">
+              <span class="card-title">Oakshield Ridge</span>
+              <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">navigate_next</i></a>
+            </div>
+            <div class="card-content">
+              <div class="card-title">Bill Davidson</div>
+              <p>123 Fake st, Waikato</p>
+            </div>
+            <div class="card-action">
+              <a href="#">View Map</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card hoverable">
+            <div class="card-image">
+              <img src="img/sample-2.jpg" class="responsive-img">
+              <span class="card-title">Cattle Range</span>
+              <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">navigate_next</i></a>
+            </div>
+            <div class="card-content">
+              <div class="card-title">Sherlock Holmes</div>
+              <p>221B Baker Street, London</p>
+            </div>
+            <div class="card-action">
+              <a href="#">View Map</a>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- end row  -->
+    </div>  <!-- end tab-window  -->
+  </div>
+  
+  <div id="tab-window-2" class="blue col s12">
+    <!-- <div class="card">
+      <div class="card-content"> -->
+        <ul class="collapsible popout transparent">
+          <li class="active">
+            <div class="collapsible-header">
+              Fields A - F
+            </div>
+            <div class="collapsible-body white">
+              <ul class="collection">
+                <a href="#" class="collection-item">A</a>
+                <a href="#" class="collection-item">B</a>
+                <a href="#" class="collection-item">C</a>
+                <a href="#" class="collection-item">D</a>
+                <a href="#" class="collection-item">E</a>
+                <a href="#" class="collection-item">F</a>
+              </ul>
+            </div>
+          </li>
+          <li class="">
+            <div class="collapsible-header">
+              Fields 0 - 12 
+            </div>
+            <div class="collapsible-body white">
+              <ul class="collection">
+                <a href="#" class="collection-item">00</a>
+                <a href="#" class="collection-item">01</a>
+                <a href="#" class="collection-item">02</a>
+                <a href="#" class="collection-item">03</a>
+                <a href="#" class="collection-item">04</a>
+                <a href="#" class="collection-item">05</a>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      <!-- </div>
+    </div> -->
+  </div>
+
+  <div id="tab-window-3" class="green col s12">
+    <div class="card">
+      <div class="card-content">
+        <form action="" class="row">
+          <div class="input-field col s12 m5">
+            <select>
+              <option value="1" data-icon="img/barley.jpg" class="left">Barley</option>
+              <option value="2" data-icon="img/beetroot.jpg">Beetroot</option> 
+              <option value="3" data-icon="img/bok-choi.jpg">Bok Choi</option> 
+              <option value="4" data-icon="img/browntop.png">Browntop</option> 
+              <option value="5" data-icon="img/cabbage.jpg">Cabbage</option> 
+              <option value="6" data-icon="img/canola.jpg">Canola</option> 
+              <option value="7" data-icon="img/carrots.png">Carrots</option> 
+              <option value="8" data-icon="img/clover.jpg">Clover</option> 
+              <option value="9" data-icon="img/corn-salad.jpg">Corn Salad</option> 
+              <option value="10" data-icon="img/fodder-beet.jpg">Fodder Beet</option> 
+              <option value="11" data-icon="img/kale.jpg">Kale</option> 
+              <option value="12" data-icon="img/linseed.jpg">Linseed</option> 
+              <option value="13" data-icon="img/oats.jpg">Oats</option> 
+              <option value="14" data-icon="img/onions.jpg">Onions</option> 
+              <option value="15" data-icon="img/peas.jpg">Peas</option> 
+              <option value="16" data-icon="img/raddish.png">Raddish</option> 
+              <option value="17" data-icon="img/.jpg">RG</option> 
+              <option value="18" data-icon="img/ryecorn.jpg">Ryecorn</option> 
+              <option value="19" data-icon="img/spuds.jpg">Spuds</option> 
+              <option value="20" data-icon="img/wheat.jpg">Wheat</option>
+            </select>
+            <label>Crop</label>
+          </div>
+        </form>
+        <form action="" class="row">
+          <div class="input-field col s12 m5">
+            <select>
+              <option value="2020" class="right">2020</option>
+              <option value="2020" class="right">2019</option>
+              <option value="2020" class="right">2018</option>
+              <option value="2020" class="right">2017</option>
+              <option value="2020" class="right">2016</option>
+              <option value="2020" class="right">2015</option>
+              <option value="2020" class="right">2014</option>
+              <option value="2020" class="right">2013</option>
+              <option value="2020" class="right">2012</option>
+            </select>
+            <label for="">Planted When</label>
+          </div>
+        </form>
+
+        <p>Gallery Selector</p>
+        <div class="row s12">
+          <div class="col s4 m2">
+            <div class="card hoverable">
+              <div class="card-image">
+                <img class="" src="img/barley.jpg" alt="">
+              </div>
+              <div class="card-content">
+                <p class="truncate">Barley</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s4 m2"><div class="card hoverable"><div class="card-image"><img class="" src="img/bok-choi.jpg"></div><div class="card-content"><p class="truncate">Bok Choi</p></div></div></div> 
+          <div class="col s4 m2"><div class="card hoverable"><div class="card-image"><img class="" src="img/beetroot.jpg"></div><div class="card-content"><p class="truncate">Beetroot</p></div></div></div>           
+          <div class="col s4 m2"><div class="card hoverable"><div class="card-image"><img class="" src="img/browntop.png"></div><div class="card-content"><p class="truncate">Browntop</p></div></div></div> 
+          <div class="col s4 m2"><div class="card hoverable"><div class="card-image"><img class="" src="img/cabbage.jpg"></div><div class="card-content"><p class="truncate">Cabbage</p></div></div></div> 
+          <div class="col s4 m2"><div class="card hoverable"><div class="card-image"><img class="" src="img/canola.jpg"></div><div class="card-content"><p class="truncate">Canola</p></div></div></div> 
+        </div>
+        <div class="row s12">
+          <div class="col s4 m2"><div class="card hoverable"><div class="card-image"><img class="" src="img/carrots.png"></div><div class="card-content"><p class="truncate">Carrots</p></div></div></div> 
+          <div class="col s4 m2"><div class="card hoverable"><div class="card-image"><img class="" src="img/clover.jpg"></div><div class="card-content"><p class="truncate">Clover</p></div></div></div> 
+          <div class="col s4 m2"><div class="card hoverable"><div class="card-image"><img class="" src="img/corn-salad.jpg"></div><div class="card-content"><p class="truncate">Corn Salad</p></div></div></div> 
+          <div class="col s4 m2"><div class="card hoverable"><div class="card-image"><img class="" src="img/fodder-beet.jpg"></div><div class="card-content"><p class="truncate">Fodder Beet</p></div></div></div> 
+          <div class="col s4 m2"><div class="card hoverable"><div class="card-image"><img class="" src="img/kale.jpg"></div><div class="card-content"><p class="truncate">Kale</p></div></div></div> 
+          <div class="col s4 m2"><div class="card hoverable"><div class="card-image"><img class="" src="img/linseed.jpg"></div><div class="card-content"><p class="truncate">Linseed</p></div></div></div> 
+        </div>
+        <div class="row s12">
+          <div class="col s4 m2"><div class="card hoverable"><div class="card-image"><img class="" src="img/oats.jpg"></div><div class="card-content"><p class="truncate">Oats</p></div></div></div> 
+          <div class="col s4 m2"><div class="card hoverable"><div class="card-image"><img class="" src="img/onions.jpg"></div><div class="card-content"><p class="truncate">Onions</p></div></div></div> 
+          <div class="col s4 m2"><div class="card hoverable"><div class="card-image"><img class="" src="img/peas.jpg"></div><div class="card-content"><p class="truncate">Peas</p></div></div></div> 
+          <div class="col s4 m2"><div class="card hoverable"><div class="card-image"><img class="" src="img/raddish.png"></div><div class="card-content"><p class="truncate">Raddish</p></div></div></div> 
+          <div class="col s4 m2"><div class="card hoverable"><div class="card-image"><img class="" src="img/ryecorn.jpg"></div><div class="card-content"><p class="truncate">RG</p></div></div></div> 
+          <div class="col s4 m2"><div class="card hoverable"><div class="card-image"><img class="" src="img/ryecorn.jpg"></div><div class="card-content"><p class="truncate">Ryecorn</p></div></div></div> 
+        </div>
+        <div class="row s12">
+          <div class="col s4 m2"><div class="card hoverable"><div class="card-image"><img class="" src="img/spuds.jpg"></div><div class="card-content"><p class="truncate">Spuds</p></div></div></div> 
+          <div class="col s4 m2"><div class="card hoverable"><div class="card-image"><img class="" src="img/wheat.jpg"></div><div class="card-content"><p class="truncate">Wheat</p></div></div></div>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+
+  <div id="tab-window-4" class="orange col s12">
+    <div class="card">
+      <div class="card-content">
+        <div class="row">
+          <ul class="col s12 collection">
+            <li class="collection-item"><i class="left material-icons">home</i>Cattle Range</li>
+            <li class="collection-item"><i class="left material-icons">layers</i>Field A</li>
+            <li class="collection-item"><i class="left material-icons">local_florist</i>Barley</li>
+            <li class="collection-item"><i class="left material-icons">event</i>planted on 2020</li>
+          </ul>
+        </div>
+
+        <div class="row">
+          <div class="col s6">
+            <h2>Fertiliser</p>
+            <form action="" class="">
+              <div class="input-field">
+                <select>
+                  <option value="0" class="right">none yet</option>
+                  <option value="1" class="right">Lime</option>
+                  <option value="2" class="right">Dolomite</option>
+                  <option value="3" class="right">Sodium Sulphate</option>
+                </select>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col s6">
+            <h5>When?</h5>
+            <div class="row">
+              <form action="" class="col s12">
+                <div class="input-field"><input placeholder="Choose date" type="text" class="datepicker"></div>
+              </form>
+            </div>
+          </div>
+          <div class="col s6">
+            <h5>How much?</h5>
+            <form action="" class="col s12">
+              <div class="input-field"><input placeholder="in kilograms" type="text" class=""></div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="tab-window-5" class="purple col s12">
+    <div class="card">
+      <div class="card-content">
+        <div class="row">
+          <ul class="col s12 collection">
+            <li class="collection-item"><i class="left material-icons">home</i>Cattle Range</li>
+            <li class="collection-item"><i class="left material-icons">layers</i>Field A</li>
+            <li class="collection-item"><i class="left material-icons">local_florist</i>Barley</li>
+            <li class="collection-item"><i class="left material-icons">event</i>planted on 2020</li>
+          </ul>
+        </div>
+
+        <div class="row">
+          <div class="col s12">
+            <h5>Yield</h5>
+            <div class="row">
+            <form action="" class="col s12">
+              <div class="input-field">
+                <input type="text" class="datepicker">
+                <label for="">Harvested when?</label>
+              </div>
+
+              <div class="input-field">
+                <input name="yield-gross" type="text" class="">
+                <label for="yield-gross">Yield Gross</label>
+              </div>
+              <div class="input-field">
+                <input name="yield-dressed" type="text" class="">
+                <label for="yield-dressed">Yield Dressed</label>
+              </div>
+              <div class="input-field">
+                <input name="test-weight" type="text" class="">
+                <label for="test-weight">Test Weight</label>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- post loading scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.sidenav').sidenav();
+      $('select').formSelect();
+      $('.datepicker').datepicker();
+      $('.timepicker').timepicker();
+      $('.slider').slider();
+      $('.tabs').tabs({
+        swipeable: true,
+        responsiveThreshold: Infinity,});
+      $('.tap-target').tapTarget();
+      $('.collapsible').collapsible();
+    })
+  </script>
+</body>
+</html>
