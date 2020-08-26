@@ -1,0 +1,123 @@
+{
+  "Farm Block": [
+    {
+      "name": "A",
+      "area": "10 ha",
+      "soil": "dry",
+      "crop-history": {
+        "2019": "Barley",
+        "2020": "Bok Choi"
+      }
+    },
+    {
+      "name": "A",
+      "area": "10 ha",
+      "soil": "dry",
+      "crop-history": {
+        "2019": "Barley",
+        "2020": "Bok Choi"
+      }
+    },
+    {
+      "name": "A",
+      "area": "10 ha",
+      "soil": "dry",
+      "crop-history": {
+        "2019": "Barley",
+        "2020": "Bok Choi"
+      }
+    },
+    {
+      "name": "A",
+      "area": "10 ha",
+      "soil": "dry",
+      "crop-history": {
+        "2019": "Barley",
+        "2020": "Bok Choi"
+      }
+    },
+    {
+      "name": "A",
+      "area": "10 ha",
+      "soil": "dry",
+      "crop-history": {
+        "2019": "Barley",
+        "2020": "Bok Choi"
+      }
+    },
+    {
+      "name": "A",
+      "area": "10 ha",
+      "soil": "dry",
+      "crop-history": {
+        "2019": "Barley",
+        "2020": "Bok Choi"
+      }
+    }
+  ],
+  "Dairy Block": [
+    {
+      "name": "A",
+      "area": "10 ha",
+      "soil": "dry",
+      "crop-history": {
+        "2019": "Barley",
+        "2020": "Bok Choi"
+      }
+    },
+    {
+      "name": "A",
+      "area": "10 ha",
+      "soil": "dry",
+      "crop-history": {
+        "2019": "Barley",
+        "2020": "Bok Choi"
+      }
+    },
+    {
+      "name": "A",
+      "area": "10 ha",
+      "soil": "dry",
+      "crop-history": {
+        "2019": "Barley",
+        "2020": "Bok Choi"
+      }
+    },
+    {
+      "name": "A",
+      "area": "10 ha",
+      "soil": "dry",
+      "crop-history": {
+        "2019": "Barley",
+        "2020": "Bok Choi"
+      }
+    },
+    {
+      "name": "A",
+      "area": "10 ha",
+      "soil": "dry",
+      "crop-history": {
+        "2019": "Barley",
+        "2020": "Bok Choi"
+      }
+    },
+    {
+      "name": "A",
+      "area": "10 ha",
+      "soil": "dry",
+      "crop-history": {
+        "2019": "Barley",
+        "2020": "Bok Choi"
+      }
+    },
+    {
+      "name": "A",
+      "area": "10 ha",
+      "soil": "dry",
+      "crop-history": {
+        "2019": "Barley",
+        "2020": "Bok Choi"
+      }
+    }
+  ]
+}
