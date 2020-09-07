@@ -38,7 +38,7 @@
   <!-- site content -->
   <ul id="" class="tabs-fixed-width tabs">
     <li class="tab col s3"><a class="red white-text" href="#tab-window-1">Farm</a></li>
-    <li class="tab col s3"><a class="blue white-text" href="#tab-window-2">Field</a></li>
+    <li class="tab col s3"><a class="blue white-text active" href="#tab-window-2">Field</a></li>
     <li class="tab col s3"><a class="green white-text" href="#tab-window-3">Crop</a></li>
     <li class="tab col s3"><a class="orange white-text" href="#tab-window-4">Fertiliser</a></li>
     <li class="tab col s3"><a class="purple white-text" href="#tab-window-5">Yield</a></li>
@@ -107,48 +107,7 @@
   
   <div id="tab-window-2" class="blue col s12">
 
-    <ul class="collapsible popout transparent">
-      <li class="">
-        <div class="collapsible-header">
-          <h5><i class="left material-icons">layers</i>Farm Block</h5>
-        </div>
-        <div class="collapsible-body white">
-          <table class="highlight">
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Area</th>
-                <th>Soil</th>
-                <th>2019 Crop</th>
-                <th>2020 Crop</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>A</td>
-                <td>10 ha</td>
-                <td>Dry</td>
-                <td>Barley</td>
-                <td>Bok Choi</td>
-              </tr>
-              <tr>
-                <td>B</td>
-                <td>11 ha</td>
-                <td>Irrigated</td>
-                <td>Tomatoes</td>
-                <td>Beetroot</td>
-              </tr>
-              <tr>
-                <td>C</td>
-                <td>12 ha</td>
-                <td>Dry</td>
-                <td>Cabbage</td>
-                <td>Cannola</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </li>
+    <ul id="FieldBlockList" class="collapsible popout transparent">
       <li class="">
         <div class="collapsible-header">
           <h5><i class="left material-icons">layers</i>Dairy Block</h5>
@@ -344,6 +303,61 @@
       $('.tap-target').tapTarget();
       $('.collapsible').collapsible();
       $('select').formSelect();
+
+        /* load data */
+      $.ajax({
+        url:'data/fertiliser-data.json',
+        type:'get',
+        dataType:'json',
+          success:function(data){
+            populateFieldData(data);
+          },
+          error: function(jqXHR, textStatus, errorThrow){
+            alert(jqXHR['responseText']);
+        }
+      })
+
+      function populateFieldData(data) {
+        let i = 0;
+        console.log(data.FarmName);
+
+        let FieldRows = ''
+        for (f of data.Fields) {
+          console.log(f);
+          FieldRows += `<tr>
+            <td>${f.Name}</td>
+            <td>${f.Area}</td>
+            <td>Unknown</td>
+            <td>${f.Crops[f.Crops.length-1].Name}</td>
+            <td>${f.Crops[f.Crops.length-1].Date}</td>
+            <td>${f.Crops[f.Crops.length-1].Area} ha</td>
+
+          </tr>`
+        }
+        
+
+        $("#FieldBlockList").append(`<li>
+          <div class="collapsible-header">
+            <h5><i class="left material-icons">layers</i>${data.FarmName}</h5>
+          </div>
+          <div class="collapsible-body white">
+          <table class="highlight">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Area</th>
+                <th>Soil</th>
+                <th>Last Crop</th>
+                <th>Planted Date</th>
+                <th>Planted Area</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${FieldRows}
+            </tbody>
+          </table>
+        </li>`)
+      }
 
       /* load data */
       $.ajax({
