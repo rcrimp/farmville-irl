@@ -1,0 +1,1323 @@
+{
+    "FarmName": "farm-name",
+    "Fields": [
+        {
+            "Name": "AJ",
+            "Area": 0,
+            "Crops": [
+                {
+                    "Name": "Onions",
+                    "Area": "18.82",
+                    "Date": null,
+                    "Ferts": [
+                        {
+                            "Name": "Dolomite (Dol)",
+                            "Area": "9.40",
+                            "Date": "14/06/2019"
+                        },
+                        {
+                            "Name": "Lime Springfield",
+                            "Area": "9.40",
+                            "Date": "14/06/2019"
+                        },
+                        {
+                            "Name": "Dolomite (Dol)",
+                            "Area": "9.40",
+                            "Date": "14/06/2019"
+                        },
+                        {
+                            "Name": "Lime Springfield",
+                            "Area": "9.40",
+                            "Date": "14/06/2019"
+                        },
+                        {
+                            "Name": "Muriate of Potash",
+                            "Area": "18.82",
+                            "Date": "24/06/2019"
+                        },
+                        {
+                            "Name": "DAP",
+                            "Area": "18.82",
+                            "Date": "14/08/2019"
+                        },
+                        {
+                            "Name": "SulfurGain Pure 90%",
+                            "Area": "18.82",
+                            "Date": "14/08/2019"
+                        },
+                        {
+                            "Name": "Boron 15%",
+                            "Area": "18.82",
+                            "Date": "14/08/2019"
+                        },
+                        {
+                            "Name": "Zinic 23%",
+                            "Area": "18.82",
+                            "Date": "14/08/2019"
+                        },
+                        {
+                            "Name": "Copper Sulphate 25%",
+                            "Area": "18.82",
+                            "Date": "14/08/2019"
+                        },
+                        {
+                            "Name": "Managnese 32%",
+                            "Area": "18.82",
+                            "Date": "14/08/2019"
+                        },
+                        {
+                            "Name": "Yara Complex",
+                            "Area": "18.82",
+                            "Date": "7/11/2019"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "B",
+            "Area": 0,
+            "Crops": [
+                {
+                    "Name": "Ryecorn",
+                    "Area": "21.02",
+                    "Date": null,
+                    "Ferts": [
+                        {
+                            "Name": "Urea",
+                            "Area": "21.02",
+                            "Date": "7/03/2020"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Peas",
+                    "Area": "20.8",
+                    "Date": null,
+                    "Ferts": [
+                        {
+                            "Name": "Muriate of Potash",
+                            "Area": "20.80",
+                            "Date": "21/09/2019"
+                        },
+                        {
+                            "Name": "DAP",
+                            "Area": "20.80",
+                            "Date": "21/09/2019"
+                        },
+                        {
+                            "Name": "SulfurGain Pure 90%",
+                            "Area": "20.80",
+                            "Date": "21/09/2019"
+                        },
+                        {
+                            "Name": "Boron 15%",
+                            "Area": "20.80",
+                            "Date": "21/09/2019"
+                        },
+                        {
+                            "Name": "Zinic 23%",
+                            "Area": "20.80",
+                            "Date": "21/09/2019"
+                        },
+                        {
+                            "Name": "Lime Springfield",
+                            "Area": "20.80",
+                            "Date": "22/09/2019"
+                        },
+                        {
+                            "Name": "Dolomite (Dol)",
+                            "Area": "20.80",
+                            "Date": "22/09/2019"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "C",
+            "Area": 0,
+            "Crops": [
+                {
+                    "Name": "Ryecorn",
+                    "Area": "21",
+                    "Date": null,
+                    "Ferts": [
+                        {
+                            "Name": "Urea",
+                            "Area": "21.00",
+                            "Date": "6/03/2020"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "21.00",
+                            "Date": "28/03/2020"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Pak Choi",
+                    "Area": "20.88",
+                    "Date": null,
+                    "Ferts": [
+                        {
+                            "Name": "Dolomite (Dol)",
+                            "Area": "20.88",
+                            "Date": "11/10/2019"
+                        },
+                        {
+                            "Name": "Lime Springfield",
+                            "Area": "20.88",
+                            "Date": "12/10/2019"
+                        },
+                        {
+                            "Name": "Muriate of Potash",
+                            "Area": "20.88",
+                            "Date": "12/10/2019"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "D",
+            "Area": 0,
+            "Crops": [
+                {
+                    "Name": "Plantains",
+                    "Area": "11.1",
+                    "Date": null,
+                    "Ferts": [
+                        {
+                            "Name": "DAP",
+                            "Area": "11.10",
+                            "Date": "8/08/2019"
+                        },
+                        {
+                            "Name": "SulfurGain Pure 90%",
+                            "Area": "11.10",
+                            "Date": "8/08/2019"
+                        },
+                        {
+                            "Name": "Boron 15%",
+                            "Area": "11.10",
+                            "Date": "8/08/2019"
+                        },
+                        {
+                            "Name": "Zinic 23%",
+                            "Area": "11.10",
+                            "Date": "8/08/2019"
+                        },
+                        {
+                            "Name": "Dolomite (Dol)",
+                            "Area": "11.10",
+                            "Date": "9/08/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "11.10",
+                            "Date": "26/08/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "11.10",
+                            "Date": "30/09/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "11.10",
+                            "Date": "24/10/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "11.10",
+                            "Date": "11/11/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "11.10",
+                            "Date": "6/03/2020"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "EE",
+            "Area": 0,
+            "Crops": [
+                {
+                    "Name": "Rape",
+                    "Area": "19",
+                    "Date": null,
+                    "Ferts": [
+                        {
+                            "Name": "Urea",
+                            "Area": "19.00",
+                            "Date": "28/02/2020"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "19.00",
+                            "Date": "7/03/2020"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "19.00",
+                            "Date": "7/04/2020"
+                        },
+                        {
+                            "Name": "Boron 15%",
+                            "Area": "19.00",
+                            "Date": "7/04/2020"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Barley",
+                    "Area": "18.99",
+                    "Date": null,
+                    "Ferts": [
+                        {
+                            "Name": "Dolomite (Dol)",
+                            "Area": "18.99",
+                            "Date": "9/09/2019"
+                        },
+                        {
+                            "Name": "Lime Springfield",
+                            "Area": "18.99",
+                            "Date": "9/09/2019"
+                        },
+                        {
+                            "Name": "DAP",
+                            "Area": "18.99",
+                            "Date": "10/09/2019"
+                        },
+                        {
+                            "Name": "Sulfate of Ammonia-Black",
+                            "Area": "18.99",
+                            "Date": "10/09/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "18.99",
+                            "Date": "22/10/2019"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "FF",
+            "Area": 0,
+            "Crops": [
+                {
+                    "Name": "Spinach",
+                    "Area": "13.49",
+                    "Date": null,
+                    "Ferts": [
+                        {
+                            "Name": "Lime Springfield",
+                            "Area": "13.49",
+                            "Date": "9/07/2019"
+                        },
+                        {
+                            "Name": "DAP",
+                            "Area": "13.49",
+                            "Date": "6/08/2019"
+                        },
+                        {
+                            "Name": "SulfurGain Pure 90%",
+                            "Area": "13.49",
+                            "Date": "6/08/2019"
+                        },
+                        {
+                            "Name": "Boron 15%",
+                            "Area": "13.49",
+                            "Date": "6/08/2019"
+                        },
+                        {
+                            "Name": "Zinic 23%",
+                            "Area": "13.49",
+                            "Date": "6/08/2019"
+                        },
+                        {
+                            "Name": "Sulfate of Ammonia-Black",
+                            "Area": "13.49",
+                            "Date": "22/11/2019"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "GR",
+            "Area": 0,
+            "Crops": [
+                {
+                    "Name": "Oats",
+                    "Area": "17.43",
+                    "Date": null,
+                    "Ferts": [
+                        {
+                            "Name": "Dolomite (Dol)",
+                            "Area": "8.70",
+                            "Date": "10/05/2019"
+                        },
+                        {
+                            "Name": "Dolomite (Dol)",
+                            "Area": "8.70",
+                            "Date": "10/05/2019"
+                        },
+                        {
+                            "Name": "Lime Springfield",
+                            "Area": "8.70",
+                            "Date": "11/05/2019"
+                        },
+                        {
+                            "Name": "Muriate of Potash",
+                            "Area": "17.43",
+                            "Date": "14/05/2019"
+                        },
+                        {
+                            "Name": "DAP",
+                            "Area": "17.43",
+                            "Date": "23/08/2019"
+                        },
+                        {
+                            "Name": "Sulfate of Ammonia-Black",
+                            "Area": "17.43",
+                            "Date": "26/09/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "17.43",
+                            "Date": "3/10/2019"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "K",
+            "Area": 0,
+            "Crops": [
+                {
+                    "Name": "Wheat",
+                    "Area": "21.86",
+                    "Date": null,
+                    "Ferts": [
+                        {
+                            "Name": "Dolomite (Dol)",
+                            "Area": "21.86",
+                            "Date": "24/04/2019"
+                        },
+                        {
+                            "Name": "Lime Springfield",
+                            "Area": "22.33",
+                            "Date": "26/04/2019"
+                        },
+                        {
+                            "Name": "Sulfate of Ammonia-Black",
+                            "Area": "21.86",
+                            "Date": "23/08/2019"
+                        },
+                        {
+                            "Name": "DAP",
+                            "Area": "21.86",
+                            "Date": "26/09/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "21.86",
+                            "Date": "3/10/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "21.86",
+                            "Date": "17/10/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "21.86",
+                            "Date": "1/11/2019"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "KK",
+            "Area": 0,
+            "Crops": [
+                {
+                    "Name": "Kale",
+                    "Area": "16.12",
+                    "Date": null,
+                    "Ferts": [
+                        {
+                            "Name": "Dolomite (Dol)",
+                            "Area": "4.00",
+                            "Date": "10/09/2019"
+                        },
+                        {
+                            "Name": "Lime Springfield",
+                            "Area": "4.00",
+                            "Date": "10/09/2019"
+                        },
+                        {
+                            "Name": "Dolomite (Dol)",
+                            "Area": "10.00",
+                            "Date": "10/09/2019"
+                        },
+                        {
+                            "Name": "Lime Springfield",
+                            "Area": "10.00",
+                            "Date": "10/09/2019"
+                        },
+                        {
+                            "Name": "Muriate of Potash",
+                            "Area": "10.00",
+                            "Date": "10/09/2019"
+                        },
+                        {
+                            "Name": "Dolomite (Dol)",
+                            "Area": "2.12",
+                            "Date": "10/09/2019"
+                        },
+                        {
+                            "Name": "Lime Springfield",
+                            "Area": "2.12",
+                            "Date": "10/09/2019"
+                        },
+                        {
+                            "Name": "Muriate of Potash",
+                            "Area": "2.12",
+                            "Date": "10/09/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "16.12",
+                            "Date": "10/12/2019"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "L",
+            "Area": 0,
+            "Crops": [
+                {
+                    "Name": "Ryegrass - Hybrid",
+                    "Area": "22.37",
+                    "Date": null,
+                    "Ferts": [
+                        {
+                            "Name": "Dolomite (Dol)",
+                            "Area": "22.37",
+                            "Date": "1/07/2019"
+                        },
+                        {
+                            "Name": "Lime Springfield",
+                            "Area": "22.37",
+                            "Date": "03/07/2019 - 04/07/2019"
+                        },
+                        {
+                            "Name": "DAP",
+                            "Area": "22.37",
+                            "Date": "28/08/2019"
+                        },
+                        {
+                            "Name": "SulfurGain Pure 90%",
+                            "Area": "22.37",
+                            "Date": "28/08/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "22.37",
+                            "Date": "30/09/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "22.37",
+                            "Date": "22/10/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "22.37",
+                            "Date": "2/11/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "22.37",
+                            "Date": "20/11/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "22.37",
+                            "Date": "14/02/2020"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "22.37",
+                            "Date": "10/03/2020"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "22.37",
+                            "Date": "25/05/2020"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "MC",
+            "Area": 0,
+            "Crops": [
+                {
+                    "Name": "Ryegrass - Perennial",
+                    "Area": "17.85",
+                    "Date": null,
+                    "Ferts": [
+                        {
+                            "Name": "Urea",
+                            "Area": "17.85",
+                            "Date": "24/04/2019"
+                        },
+                        {
+                            "Name": "Dolomite (Dol)",
+                            "Area": "8.90",
+                            "Date": "30/07/2019"
+                        },
+                        {
+                            "Name": "Lime Springfield",
+                            "Area": "8.90",
+                            "Date": "30/07/2019"
+                        },
+                        {
+                            "Name": "DAP",
+                            "Area": "17.85",
+                            "Date": "8/08/2019"
+                        },
+                        {
+                            "Name": "SulfurGain Pure 90%",
+                            "Area": "17.85",
+                            "Date": "8/08/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "17.85",
+                            "Date": "26/08/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "17.85",
+                            "Date": "14/09/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "17.85",
+                            "Date": "5/10/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "17.85",
+                            "Date": "22/10/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "17.85",
+                            "Date": "6/11/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "17.85",
+                            "Date": "1/02/2020"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "17.85",
+                            "Date": "26/02/2020"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "17.85",
+                            "Date": "8/05/2020"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "MH",
+            "Area": 0,
+            "Crops": [
+                {
+                    "Name": "Corn Salad",
+                    "Area": "10.5",
+                    "Date": null,
+                    "Ferts": [
+                        {
+                            "Name": "DAP",
+                            "Area": "10.50",
+                            "Date": "25/02/2020"
+                        },
+                        {
+                            "Name": "SulfurGain Pure 90%",
+                            "Area": "10.50",
+                            "Date": "25/02/2020"
+                        },
+                        {
+                            "Name": "Boron 15%",
+                            "Area": "10.50",
+                            "Date": "25/02/2020"
+                        },
+                        {
+                            "Name": "Zinic 23%",
+                            "Area": "10.50",
+                            "Date": "25/02/2020"
+                        },
+                        {
+                            "Name": "Managnese 32%",
+                            "Area": "10.50",
+                            "Date": "25/02/2020"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "NW",
+            "Area": 0,
+            "Crops": [
+                {
+                    "Name": "Wheat",
+                    "Area": "18.84",
+                    "Date": null,
+                    "Ferts": [
+                        {
+                            "Name": "Lime Springfield",
+                            "Area": "4.70",
+                            "Date": "28/03/2019"
+                        },
+                        {
+                            "Name": "Dolomite (Dol)",
+                            "Area": "4.70",
+                            "Date": "28/03/2019"
+                        },
+                        {
+                            "Name": "Lime Springfield",
+                            "Area": "4.70",
+                            "Date": "28/04/2019"
+                        },
+                        {
+                            "Name": "Dolomite (Dol)",
+                            "Area": "4.70",
+                            "Date": "28/04/2019"
+                        },
+                        {
+                            "Name": "Lime Springfield",
+                            "Area": "4.70",
+                            "Date": "28/04/2019"
+                        },
+                        {
+                            "Name": "Dolomite (Dol)",
+                            "Area": "4.70",
+                            "Date": "28/04/2019"
+                        },
+                        {
+                            "Name": "Lime Springfield",
+                            "Area": "4.70",
+                            "Date": "28/04/2019"
+                        },
+                        {
+                            "Name": "Dolomite (Dol)",
+                            "Area": "4.70",
+                            "Date": "28/04/2019"
+                        },
+                        {
+                            "Name": "Sulfate of Ammonia-Black",
+                            "Area": "18.84",
+                            "Date": "23/08/2019"
+                        },
+                        {
+                            "Name": "DAP",
+                            "Area": "18.84",
+                            "Date": "26/09/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "18.84",
+                            "Date": "3/10/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "18.84",
+                            "Date": "17/10/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "18.84",
+                            "Date": "1/11/2019"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "P",
+            "Area": 0,
+            "Crops": [
+                {
+                    "Name": "Ryegrass - Perennial",
+                    "Area": "21.9",
+                    "Date": null,
+                    "Ferts": [
+                        {
+                            "Name": "Urea",
+                            "Area": "21.90",
+                            "Date": "24/04/2019"
+                        },
+                        {
+                            "Name": "Dolomite (Dol)",
+                            "Area": "21.90",
+                            "Date": "30/07/2019"
+                        },
+                        {
+                            "Name": "DAP",
+                            "Area": "21.90",
+                            "Date": "8/08/2019"
+                        },
+                        {
+                            "Name": "SulfurGain Pure 90%",
+                            "Area": "21.90",
+                            "Date": "8/08/2019"
+                        },
+                        {
+                            "Name": "Lime Springfield",
+                            "Area": "21.90",
+                            "Date": "9/08/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "21.90",
+                            "Date": "26/08/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "21.90",
+                            "Date": "30/09/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "21.90",
+                            "Date": "1/11/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "21.90",
+                            "Date": "11/11/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "21.90",
+                            "Date": "14/12/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "21.90",
+                            "Date": "7/03/2020"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "21.90",
+                            "Date": "4/04/2020"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "21.90",
+                            "Date": "8/05/2020"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "21.90",
+                            "Date": "25/05/2020"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "PW",
+            "Area": 0,
+            "Crops": [
+                {
+                    "Name": "Barley",
+                    "Area": "18.5",
+                    "Date": null,
+                    "Ferts": [
+                        {
+                            "Name": "Lime Springfield",
+                            "Area": "4.70",
+                            "Date": "2/08/2019"
+                        },
+                        {
+                            "Name": "Lime Springfield",
+                            "Area": "4.70",
+                            "Date": "2/08/2019"
+                        },
+                        {
+                            "Name": "Muriate of Potash",
+                            "Area": "9.40",
+                            "Date": "2/08/2019"
+                        },
+                        {
+                            "Name": "Muriate of Potash",
+                            "Area": "4.70",
+                            "Date": "2/08/2019"
+                        },
+                        {
+                            "Name": "Dolomite (Dol)",
+                            "Area": "14.10",
+                            "Date": "6/08/2019"
+                        },
+                        {
+                            "Name": "Dolomite (Dol)",
+                            "Area": "4.70",
+                            "Date": "6/08/2019"
+                        },
+                        {
+                            "Name": "DAP",
+                            "Area": "16.00",
+                            "Date": "8/08/2019"
+                        },
+                        {
+                            "Name": "DAP",
+                            "Area": "2.50",
+                            "Date": "8/08/2019"
+                        },
+                        {
+                            "Name": "Kieserite",
+                            "Area": "2.50",
+                            "Date": "14/08/2019"
+                        },
+                        {
+                            "Name": "Sulfate of Ammonia-Black",
+                            "Area": "18.50",
+                            "Date": "3/10/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "18.50",
+                            "Date": "3/10/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "18.50",
+                            "Date": "22/10/2019"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Q",
+            "Area": 0,
+            "Crops": [
+                {
+                    "Name": "Onions",
+                    "Area": "16.15",
+                    "Date": null,
+                    "Ferts": [
+                        {
+                            "Name": "Dolomite (Dol)",
+                            "Area": "3.31",
+                            "Date": "14/06/2019"
+                        },
+                        {
+                            "Name": "Lime Springfield",
+                            "Area": "3.31",
+                            "Date": "14/06/2019"
+                        },
+                        {
+                            "Name": "Muriate of Potash",
+                            "Area": "3.31",
+                            "Date": "14/06/2019"
+                        },
+                        {
+                            "Name": "Dolomite (Dol)",
+                            "Area": "4.48",
+                            "Date": "14/06/2019"
+                        },
+                        {
+                            "Name": "Lime Springfield",
+                            "Area": "4.48",
+                            "Date": "14/06/2019"
+                        },
+                        {
+                            "Name": "Muriate of Potash",
+                            "Area": "4.48",
+                            "Date": "14/06/2019"
+                        },
+                        {
+                            "Name": "Muriate of Potash",
+                            "Area": "5.22",
+                            "Date": "17/06/2019"
+                        },
+                        {
+                            "Name": "Muriate of Potash",
+                            "Area": "3.14",
+                            "Date": "17/06/2019"
+                        },
+                        {
+                            "Name": "DAP",
+                            "Area": "16.15",
+                            "Date": "6/08/2019"
+                        },
+                        {
+                            "Name": "SulfurGain Pure 90%",
+                            "Area": "16.15",
+                            "Date": "6/08/2019"
+                        },
+                        {
+                            "Name": "Boron 15%",
+                            "Area": "16.15",
+                            "Date": "6/08/2019"
+                        },
+                        {
+                            "Name": "Zinic 23%",
+                            "Area": "16.15",
+                            "Date": "6/08/2019"
+                        },
+                        {
+                            "Name": "Copper Sulphate 25%",
+                            "Area": "16.15",
+                            "Date": "6/08/2019"
+                        },
+                        {
+                            "Name": "Managnese 32%",
+                            "Area": "16.15",
+                            "Date": "6/08/2019"
+                        },
+                        {
+                            "Name": "Yara Complex",
+                            "Area": "16.15",
+                            "Date": "7/11/2019"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "R",
+            "Area": 0,
+            "Crops": [
+                {
+                    "Name": "Clover (White)",
+                    "Area": "16.2",
+                    "Date": null,
+                    "Ferts": [
+                        {
+                            "Name": "Muriate of Potash",
+                            "Area": "16.20",
+                            "Date": "12/07/2019"
+                        },
+                        {
+                            "Name": "Dolomite (Dol)",
+                            "Area": "16.20",
+                            "Date": "29/07/2019"
+                        },
+                        {
+                            "Name": "Lime Springfield",
+                            "Area": "16.20",
+                            "Date": "30/07/2019"
+                        },
+                        {
+                            "Name": "SulfurGain Pure 90%",
+                            "Area": "16.20",
+                            "Date": "8/08/2019"
+                        },
+                        {
+                            "Name": "Boron 15%",
+                            "Area": "16.20",
+                            "Date": "8/08/2019"
+                        },
+                        {
+                            "Name": "Copper Sulphate 25%",
+                            "Area": "16.20",
+                            "Date": "31/03/2020"
+                        },
+                        {
+                            "Name": "Muriate of Potash",
+                            "Area": "16.20",
+                            "Date": "2/04/2020"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "S",
+            "Area": 0,
+            "Crops": [
+                {
+                    "Name": "Carrots",
+                    "Area": "15.6",
+                    "Date": null,
+                    "Ferts": [
+                        {
+                            "Name": "Muriate of Potash",
+                            "Area": "15.60",
+                            "Date": "19/02/2019"
+                        },
+                        {
+                            "Name": "DAP",
+                            "Area": "15.60",
+                            "Date": "21/02/2019"
+                        },
+                        {
+                            "Name": "Lime Springfield",
+                            "Area": "15.60",
+                            "Date": "22/02/2019"
+                        },
+                        {
+                            "Name": "Dolomite (Dol)",
+                            "Area": "15.60",
+                            "Date": "22/02/2019"
+                        },
+                        {
+                            "Name": "Superten",
+                            "Area": "15.60",
+                            "Date": "24/09/2019"
+                        },
+                        {
+                            "Name": "Sulfate of Ammonia-Black",
+                            "Area": "15.60",
+                            "Date": "16/12/2019"
+                        },
+                        {
+                            "Name": "Boron 15%",
+                            "Area": "15.60",
+                            "Date": "16/12/2019"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "U",
+            "Area": 0,
+            "Crops": [
+                {
+                    "Name": "Carrots",
+                    "Area": "21.23",
+                    "Date": null,
+                    "Ferts": [
+                        {
+                            "Name": "Muriate of Potash",
+                            "Area": "21.23",
+                            "Date": "21/02/2019"
+                        },
+                        {
+                            "Name": "DAP",
+                            "Area": "21.23",
+                            "Date": "22/02/2019"
+                        },
+                        {
+                            "Name": "Lime Springfield",
+                            "Area": "21.23",
+                            "Date": "26/02/2019"
+                        },
+                        {
+                            "Name": "Dolomite (Dol)",
+                            "Area": "21.23",
+                            "Date": "26/02/2019"
+                        },
+                        {
+                            "Name": "Superten",
+                            "Area": "21.23",
+                            "Date": "24/09/2019"
+                        },
+                        {
+                            "Name": "Muriate of Potash",
+                            "Area": "21.23",
+                            "Date": "26/09/2019"
+                        },
+                        {
+                            "Name": "Sulfate of Ammonia-Black",
+                            "Area": "21.23",
+                            "Date": "16/12/2019"
+                        },
+                        {
+                            "Name": "Boron 15%",
+                            "Area": "21.23",
+                            "Date": "16/12/2019"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "W",
+            "Area": 0,
+            "Crops": [
+                {
+                    "Name": "Ryecorn",
+                    "Area": "5.3",
+                    "Date": null,
+                    "Ferts": [
+                        {
+                            "Name": "Urea",
+                            "Area": "5.30",
+                            "Date": "29/12/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "5.30",
+                            "Date": "7/04/2020"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Parsnips",
+                    "Area": "5.5",
+                    "Date": null,
+                    "Ferts": [
+                        {
+                            "Name": "Muriate of Potash",
+                            "Area": "10.77",
+                            "Date": "19/02/2019 - 20/02/2019"
+                        },
+                        {
+                            "Name": "DAP",
+                            "Area": "10.77",
+                            "Date": "22/02/2019"
+                        },
+                        {
+                            "Name": "Lime Springfield",
+                            "Area": "10.77",
+                            "Date": "26/02/2019"
+                        },
+                        {
+                            "Name": "SulfurGain Pure 90%",
+                            "Area": "10.77",
+                            "Date": "8/03/2019"
+                        },
+                        {
+                            "Name": "Copper Sulphate 25%",
+                            "Area": "10.77",
+                            "Date": "8/03/2019"
+                        },
+                        {
+                            "Name": "Zinic 23%",
+                            "Area": "10.77",
+                            "Date": "8/03/2019"
+                        },
+                        {
+                            "Name": "Cobalt 10%",
+                            "Area": "10.77",
+                            "Date": "8/03/2019"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "X",
+            "Area": 0,
+            "Crops": [
+                {
+                    "Name": "Fodder Beet",
+                    "Area": "10",
+                    "Date": null,
+                    "Ferts": [
+                        {
+                            "Name": "Lime Springfield",
+                            "Area": "10.00",
+                            "Date": "7/09/2019"
+                        },
+                        {
+                            "Name": "Dolomite (Dol)",
+                            "Area": "10.00",
+                            "Date": "7/09/2019"
+                        },
+                        {
+                            "Name": "DAP",
+                            "Area": "10.00",
+                            "Date": "11/09/2019"
+                        },
+                        {
+                            "Name": "SulfurGain Pure 90%",
+                            "Area": "10.00",
+                            "Date": "11/09/2019"
+                        },
+                        {
+                            "Name": "Boron 15%",
+                            "Area": "10.00",
+                            "Date": "11/09/2019"
+                        },
+                        {
+                            "Name": "Zinic 23%",
+                            "Area": "10.00",
+                            "Date": "11/09/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "10.00",
+                            "Date": "10/12/2019"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Barley",
+                    "Area": "5",
+                    "Date": null,
+                    "Ferts": [
+                        {
+                            "Name": "Lime Springfield",
+                            "Area": "5.00",
+                            "Date": "7/09/2019"
+                        },
+                        {
+                            "Name": "Dolomite (Dol)",
+                            "Area": "5.00",
+                            "Date": "7/09/2019"
+                        },
+                        {
+                            "Name": "DAP",
+                            "Area": "5.00",
+                            "Date": "11/09/2019"
+                        },
+                        {
+                            "Name": "SulfurGain Pure 90%",
+                            "Area": "5.00",
+                            "Date": "11/09/2019"
+                        },
+                        {
+                            "Name": "Boron 15%",
+                            "Area": "5.00",
+                            "Date": "11/09/2019"
+                        },
+                        {
+                            "Name": "Zinic 23%",
+                            "Area": "5.00",
+                            "Date": "11/09/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "5.00",
+                            "Date": "5/10/2019"
+                        },
+                        {
+                            "Name": "Urea",
+                            "Area": "5.00",
+                            "Date": "22/10/2019"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
