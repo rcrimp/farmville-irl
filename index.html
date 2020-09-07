@@ -20,16 +20,16 @@
     } /*Text color on hover*/
 
     .tabs .tab a.active {
-      background-color: lightgray;
+      background-color: lightgrey;
       color:#000;
     } /*Background and text color when a tab is active*/
 
     .tabs .indicator {
-      background-color: black;
-
+      background-color: white;
+      height: 2px;
     } /*Color of underline*/
 
-    /* .tabs-content {min-height: 90% !important;} */
+    .tabs-content {min-height: 200vh !important;}
 
     .tabs-icon {
         font-size: 10px;
@@ -57,30 +57,25 @@
 
   </style>
 </head>
-<body class="grey">
+<body class="grey lighten-2">
 
-  <div class="row">
-    <div class="col s12">
-      <ul id="" class="tabs-fixed-width tabs tabs-icon">
-        <li class="tab col s3"><a class="red-text" href="#tab-window-1">
-          <i class="material-icons">home</i>Farm
-        </a></li>
-        <li class="tab col s3"><a class="blue-text" href="#tab-window-2">
-          <i class="material-icons">layers</i>Field
-        </a></li>
-        <li class="tab col s3"><a class="green-text" href="#tab-window-3">
-          <i class="material-icons">grass</i>Crop
-        </a></li>
-        <li class="tab col s3"><a class="orange-text" href="#tab-window-4">
-          <i class="material-icons">agriculture</i>Fertiliser
-        </a></li>
-        <li class="tab col s3"><a class="purple-text" href="#tab-window-5">
-          <i class="material-icons">local_florist</i>Yield
-        </a></li>
-      </ul>
-    </div>
-  </div>
-
+  <ul id="" class="tabs-fixed-width tabs tabs-icon z-depth-1">
+    <li class="tab col s3"><a class="red white-text" href="#tab-window-1">
+      <i class="material-icons">home</i>Farm
+    </a></li>
+    <li class="tab col s3"><a class="blue white-text" href="#tab-window-2">
+      <i class="material-icons">layers</i>Field
+    </a></li>
+    <li class="tab col s3"><a class="green white-text" href="#tab-window-3">
+      <i class="material-icons">grass</i>Crop
+    </a></li>
+    <li class="tab col s3"><a class="orange white-text" href="#tab-window-4">
+      <i class="material-icons">agriculture</i>Fertiliser
+    </a></li>
+    <li class="tab col s3"><a class="purple white-text" href="#tab-window-5">
+      <i class="material-icons">local_florist</i>Yield
+    </a></li>
+  </ul>
 
   <div id="tab-windows" class="row">
     <div id="tab-window-1" class="transparent col s12">
@@ -155,9 +150,9 @@
     <div class="row">
       <div class="col s8 m6 l4 offset-l4 offset-m3 offset-s2">
         
-        <ul class="collection with-header">
+        <ul class="collection with-header z-depth-1">
           
-          <li class="collection-item red-text"><i class="left material-icons">home</i>Belmont Farm</li>
+          <li class="collection-item red-text"><i class="left material-icons">home</i>Belmont Farm<span class="right">CHANGE</span></li>
         </ul>
 
         <div class="card">
@@ -187,10 +182,10 @@
     <div class="row">
       <div class="col s8 m6 l4 offset-l4 offset-m3 offset-s2">
         
-        <ul class="collection with-header">
+        <ul class="collection with-header z-depth-1">
           
-          <li class="collection-item red-text"><i class="left material-icons">home</i>Belmont Farm</li>
-          <li class="collection-item blue-text"><i class="left material-icons">layers</i>Field A</li>
+          <li class="collection-item red-text"><i class="left material-icons">home</i>Belmont Farm<span class="right">CHANGE</span></li>
+          <li class="collection-item blue-text"><i class="left material-icons">layers</i>Field A<span class="right">CHANGE</span></li>
         </ul>
 
         <div class="card">
@@ -250,11 +245,11 @@
     <div class="row">
       <div class="col s8 m6 l4 offset-l4 offset-m3 offset-s2">
         
-        <ul class="collection with-header">
+        <ul class="collection with-header z-depth-1">
           
-          <li class="collection-item red-text"><i class="left material-icons">home</i>Belmont Farm</li>
-          <li class="collection-item blue-text"><i class="left material-icons">layers</i>Field A</li>
-          <li class="collection-item green-text"><i class="left material-icons">grass</i>Barley</li>
+          <li class="collection-item red-text"><i class="left material-icons">home</i>Belmont Farm<span class="right">CHANGE</span></li>
+          <li class="collection-item blue-text"><i class="left material-icons">layers</i>Field A<span class="right">CHANGE</span></li>
+          <li class="collection-item green-text"><i class="left material-icons">grass</i>Barley<span class="right">CHANGE</span></li>
         </ul>
 
         <div class="card">
@@ -319,12 +314,16 @@
     <div class="row">
       <div class="col s8 m6 l4 offset-l4 offset-m3 offset-s2">
 
-        <ul class="collection with-header">
+        <ul class="collection with-header z-depth-1">
           
-          <li class="collection-item red-text"><i class="left material-icons">home</i>Belmont Farm</li>
-          <li class="collection-item blue-text"><i class="left material-icons">layers</i>Field A</li>
-          <li class="collection-item green-text"><i class="left material-icons">grass</i>Barley</li>
-          <li class="collection-item orange-text"><i class="left material-icons">agriculture</i>Fertiliser</li>
+          <li class="collection-item red-text">
+            <i class="left material-icons">home</i>
+            Belmont Farm
+            <span class="right">CHANGE</span>
+          </li>
+          <li class="collection-item blue-text"><i class="left material-icons">layers</i>Field A<span class="right">CHANGE</span></li>
+          <li class="collection-item green-text"><i class="left material-icons">grass</i>Barley<span class="right">CHANGE</span></li>
+          <li class="collection-item orange-text"><i class="left material-icons">agriculture</i>Boron<span class="right">CHANGE</span></li>
         </ul>
 
         <div class="card">
@@ -519,7 +518,7 @@
       $('.timepicker').timepicker();
       $('.slider').slider();
       $('.tabs').tabs({
-        swipeable: false,
+        swipeable: true,
         responsiveThreshold: Infinity,});
       $('.tap-target').tapTarget();
       $('.collapsible').collapsible();
