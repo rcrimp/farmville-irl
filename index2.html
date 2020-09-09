@@ -1,0 +1,452 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <title>AgriGanics</title>
+        <style>
+            .tabs-icon div i {
+                display: block;
+                margin-top: 5px;
+                margin-bottom: -15px;
+                font-size: 24px;
+            }
+            .tabs-icon div p {
+                margin: 10px 0 0 0;
+            }
+
+            #header-farm.active > .collapsible-header {
+                background: #d81b60  !important;
+            }
+            #header-field.active > .collapsible-header {
+                background: #673ab7 !important;
+            }
+            #header-soil.active > .collapsible-header {
+                background: #2196f3  !important;
+            }
+            #header-crop.active > .collapsible-header {
+                background: #4caf50 !important;
+            }
+            #header-fertiliser.active > .collapsible-header {
+                background: #ffc107 !important;
+            }
+            #header-yield.active > .collapsible-header {
+                background: #ff5722 !important;
+            }
+            #headers > li.active > .collapsible-header > span,
+            #headers > li.active > .collapsible-header > i  {
+                color: white !important;
+            }
+
+            #fert-history-list-container .collapsible-body {
+                
+            }
+            #fert-history-list-container .collapsible-body{
+                padding: 0 !important;
+            }
+            #FertHistoryList {
+                
+            }
+            #fert-history-list-container .collapsible {
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body class="grey lighten-2">
+
+        <!-- <div id="" class="row tabs-icon z-depth-1">
+            <div class="col s2 pink darken-1 white-text">
+                <i class="center material-icons">home</i>
+                <p class="center">Farm</p>
+            </div>
+            <div class="col s2 deep-purple white-text">
+                <i class="center material-icons">layers</i>
+                <p class="center">Field</p>
+            </a></div>
+            <div class="col s2 blue white-text">
+                <i class="center material-icons">analytics</i>
+                <p class="center">Soil</p>
+            </a></div>
+            <div class="col s2 teal white-text">
+                <i class="center material-icons">grass</i>
+                <p class="center">Crop</p>
+            </a></div>
+            <div class="col s2 amber white-text">
+                <i class="center material-icons">agriculture</i>
+                <p class="center">Fertiliser</p>
+            </a></div>
+            <div class="col s2 deep-orange white-text">
+                <i class="center material-icons">local_florist</i>
+                <p class="center">Yield</p>
+            </div>
+        </div> -->
+
+        <div class="row">
+
+            <div class="col s12 m8 l6 offset-l3 offset-m2">
+                
+                <div class="card">
+                    <div class="card-content">
+                        <img class="" src="/img/logo.jpg" alt="">
+                        <p>Welcome Bill Davidson</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">About</a>
+                        <a class="right" href="#">Sign out</a>
+                    </div>
+                </div>
+
+                <ul id="headers" class="collapsible popout">
+                    
+                    <li id="header-farm">
+                        <div class="collapsible-header">
+                            <i class="left material-icons pink-text text-darken-1">home</i>
+                            <span class="pink-text text-darken-1">Farm</span>
+                        </div>
+                        <div class="collapsible-body white">
+                            <!-- BEGIN FARM -->
+                            Select a farm
+                            <ul id="farm-select" class="collapsible">
+                                <li>
+                                  <div class="collapsible-header">
+                                    <i class="left pink-text text-darken-1 material-icons">expand_more</i>
+                                    <span class="">Belmont Farm</span>
+                                    
+                                  </div>
+                                  <div class="collapsible-body">
+                                    <span>Belmont Farm<br>1031 Wards Road<br>RD 1, Christchurch</span>
+                                    <p>Leased</p>
+                                    <div class="btn pink darken-1" onclick="select('farm');">
+                                        Select
+                                        <i class="material-icons right">navigate_next</i>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li>
+                                  <div class="collapsible-header">
+                                    <i class="left pink-text text-darken-1 material-icons">expand_more</i>
+                                    <span class="">Derret's Farm</span>
+                                  </div>
+                                  <div class="collapsible-body">
+                                    <span>Address here</span>
+                                    <p>Leased</p>
+                                    <div class="btn white pink darken-1" onclick="select('farm');">
+                                        Select
+                                        <i class="material-icons right">navigate_next</i>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li>
+                                    <div class="collapsible-header">
+                                        <i class="left pink-text text-darken-1 material-icons">expand_more</i>
+                                        <span class="">Croy's Farm</span>
+                                    </div>
+                                    <div class="collapsible-body">
+                                        <span>Address here</span>
+                                        <p>Leased</p>
+                                        <div class="btn pink darken-1" onclick="select('farm');">
+                                            Select
+                                            <i class="material-icons right">navigate_next</i>
+                                        </div>
+                                    </div>
+                  
+                                  </li>
+                              </ul>
+                            <!-- END FARM -->
+                        </div>
+                    </li>
+                    <li id="header-field" class="active">
+                        <div class="collapsible-header deep-purple-text">
+                            <i class="left material-icons">layers</i>
+                            <span class="deep-purple-text">Field</span>
+                        </div>
+                        <div class="collapsible-body white">
+                            <!-- FIELD -->
+                            Select a field
+                            <table id="myTable" class="highlight">
+                                <thead>
+                                    <tr>
+                                    <th>Name</th>
+                                    <th>Area</th>
+                                    <th>Last Crop</th>
+                                    <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="field-select">
+                                </tbody>
+                            </table>
+                            <div class="center">
+                                <ul class="pagination pager" id="myPager"></ul>
+                            </div>
+                            
+                            <!-- END FIELD -->
+                        </div>
+                    </li>
+                    <li id="header-crop">
+                        <div class="collapsible-header green-text">
+                            <i class="left material-icons">grass</i>
+                            <span class="green-text">Crop</span>
+                        </div>
+                        <div class="collapsible-body white white">
+                            <!-- CROP -->
+                            Record New Crop
+                            <form action="">
+                                <div class="input-field">
+                                    <i class="material-icons prefix">grass</i>
+                                    <select id="crop-list-selector"></select>
+                                </div>
+                                
+                                <div class="input-field">
+                                    <i class="material-icons prefix">event</i>
+                                    <input placeholder="Choose date" type="text" class="datepicker">
+                                    <label for="">Planted When?</label>
+                                </div>
+                    
+                                <div class="input-field">
+                                    <i class="material-icons prefix">local_florist</i>
+                                    <input type="text" placeholder="Tonnes">
+                                    <label for="">Estimated Yield</label>
+                                </div>
+                            </form>
+
+
+                            <ul class="collapsible">
+                                <li>
+                                    <div class="collapsible-header">
+                                        <i class="left green-text material-icons">expand_more</i>
+                                        Crop Gallery
+                                    </div>
+                                    <div id="crop-gallery-selector" class="collapsible-body row">
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="btn green" onclick="select('crop');">
+                                Select
+                                <i class="material-icons right">navigate_next</i>
+                            </div>
+
+                            <!-- END CROP -->
+                        </div>
+                    </li>
+                    <li id="header-fertiliser">
+                        <div  class="collapsible-header amber-text">
+                            <i class="left material-icons">agriculture</i>
+                            <span class="amber-text">Fertiliser</span>
+                        </div>
+                        <div class="collapsible-body white">
+                            <!-- FERTILISER  -->
+                            Record New Fertiliser
+                            <form action="">
+                            
+                                <div class="input-field">
+                                    <i class="material-icons prefix">agriculture</i>
+                                    <select>
+                                    <option value="0" class="right">none yet</option>
+                                    <option value="1" class="right">Lime</option>
+                                    <option value="2" class="right">Dolomite</option>
+                                    <option value="3" class="right">Sodium Sulphate</option>
+                                    <option value="3" class="right">Diammonium phosphate (DAP)</option>
+                                    </select>
+                                </div>
+                    
+                                <div class="input-field">
+                                    <i class="material-icons prefix">event</i>
+                                    <input placeholder="Choose date" type="text" class="datepicker">
+                                    <label for="">When?</label>
+                                </div>
+                    
+                                <div class="input-field">
+                                    <i class="material-icons prefix">assessment</i>
+                                    <input type="text" placeholder="Tonnes">
+                                    <label for="">How Much</label>
+                                </div>
+
+                                <ul id="fert-history-list-container" class="collapsible transparent">
+                                    <li>
+                                      <div class="collapsible-header">
+                                          <i class="left amber-text material-icons">expand_more</i>History</div>
+                                      <div class="collapsible-body grey lighten-1">
+                                        
+                                        <ul id="FertiliserHistoryList" class="collapsible transparent"></ul>
+                          
+                                      </div>
+                                    </li>
+                                </ul>
+                
+                            </form>
+
+                            <div class="btn amber" onclick="select('fert');">
+                                Select
+                                <i class="material-icons right">navigate_next</i>
+                            </div>
+                            <!-- END FERTILISER -->
+                        </div>
+                    </li>
+                    <li id="header-yield">
+                        <div class="collapsible-header deep-orange-text">
+                            <i class="left material-icons">local_florist</i>
+                            <span class="deep-orange-text">Yield</span>
+                        </div>
+                        <div class="collapsible-body white">
+                            <div class="btn deep-orange" onclick="select('yield');">
+                                Select
+                                <i class="material-icons right">navigate_next</i>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="header-soil">
+                        <div class="collapsible-header blue-text">
+                            <i class="left material-icons">analytics</i>
+                            <span class="blue-text">Soil Report</span>
+                        </div>
+                        <div class="collapsible-body white">
+                            <div class="btn blue" onclick="select('soil');">
+                                Select
+                                <i class="material-icons right">navigate_next</i>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-title">More Content?</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- post loading scripts -->
+        <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="pagination.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('.collapsible').collapsible();
+                $('.datepicker').datepicker();
+                $('select').formSelect();
+
+                $.ajax({
+                    url:'data/fertiliser-data.json',
+                    type:'get',
+                    dataType:'json',
+                    success:function(data){
+                        populateFieldData(data);
+                        populateFertiliserHistory(data)
+                    },
+                    error: function(jqXHR, textStatus, errorThrow){
+                        alert(jqXHR['responseText']);
+                    }
+                })
+                $.ajax({
+                    url:'data/crops.json',
+                    type:'get',
+                    dataType:'json',
+                    success:function(data){
+                        populateCropData(data);
+                    },
+                    error: function(jqXHR, textStatus, errorThrow){
+                        alert(jqXHR['responseText']);
+                    }
+                })
+            });
+            function select(string) {
+                var instance = M.Collapsible.getInstance($('#headers'));
+                let nextTab = {
+                    'farm': 1, 'field': 2, 'crop': 3, 'fert': 4, 'yield': 5, 'soil': 6
+                }
+                instance.open(nextTab[string]);
+            }
+
+            function populateCropData(data) {
+                let i = 0;
+                for (d of data) {
+                $("#crop-list-selector").append(`<option value=${i++} data-icon="${d.img}" class="left">${d.name}</option>`)
+                $("#crop-gallery-selector").append(`
+                <div class="col s4 m3 l3">
+                    <div class="card hoverable">
+                        <span class="left truncate">${d.name}</span>
+                        <div class="card-image">
+                            <img class="" src="${d.img}">
+                        </div>
+                    </div>
+                </div>`)
+                }
+
+                $("#crop-list-selector").formSelect();
+            }
+            function populateFieldData(data) {
+                let FieldRows = ''
+                for (f of data.Fields) {
+                FieldRows += `<tr>
+                    <td>${f.Name}</td>
+                    <td>${f.Area} ha</td>
+                    <td>${f.Crops[f.Crops.length-1].Name}</td>
+                    <td>
+                        <div class="btn btn-small btn-floating green" onclick="select('field');">
+                            <i class="material-icons">grass</i>
+                        </div>
+                        <div class="btn btn-small btn-floating amber" onclick="select('crop');">
+                            <i class="material-icons">agriculture</i>
+                        </div>
+                        
+                    </td>
+                </tr>`
+                }
+                $("#field-select").append(`${FieldRows}`);
+                $('#myTable').pageMe({
+                    pagerSelector:'#myPager',
+                    activeColor: 'deep-purple',
+                    prevText:'Anterior',
+                    nextText:'Siguiente',
+                    showPrevNext:true,
+                    hidePageNumbers:false,
+                    perPage:5
+                });
+            }
+            function populateFertiliserHistory(data) {
+                FieldData = data.Fields[0];
+                console.log(FieldData);
+
+                CropData = data.Fields[0].Crops;
+                for (c of CropData) {
+                let FieldRows = ''
+                for (f of c.Ferts) {
+                    FieldRows += `<tr>
+                    <td>${f.Name}</td>
+                    <td>${f.Area} ha</td>
+                    <td>${f.Date}</td>
+                    </tr>`
+                }
+
+                $("#FertiliserHistoryList").append(`<li>
+                    <div class="collapsible-header">
+                        <i class="left material-icons">grass</i>${c.Name}
+                    </div>
+                    <div class="collapsible-body grey lighten-2">
+                    <div class="">Planted: ${c.Date}</div>
+                    <div class="">Area: ${c.Area} ha</div>
+                    <table class="highlight">
+                        <thead>
+                        <tr>
+                            <th>Fertiliser</th>
+                            <th>Area</th>
+                            <th>Date</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        ${FieldRows}
+                        </tbody>
+                    </table>
+                    </div>
+                </li>`);
+                }
+            }
+
+        </script>
+    </body>
+</html>
