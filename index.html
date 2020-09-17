@@ -29,7 +29,15 @@
       height: 2px;
     } /*Color of underline*/
 
-    .tabs-content {min-height: 200vh !important;}
+    /* .tabs-content {min-height: 200vh !important;} */
+    .tabs-content.carousel {
+      height: 100%; overflow-x:hidden; overflow-y: scroll;
+    }
+    .tabs-content.carousel .carousel-item {
+      width: 100%; height: calc(100% - 48px);
+    }
+    html,body{
+      overflow:hidden; height:100%; }
 
     .tabs-icon {
         font-size: 10px;
