@@ -175,8 +175,8 @@
                                     <tr>
                                     <th>Name</th>
                                     <th>Area</th>
-                                    <th>Last Crop</th>
-                                    <th>Action</th>
+                                    <th>Current Crop</th>
+                                    <th>More...</th>
                                     </tr>
                                 </thead>
                                 <tbody id="field-select">
@@ -197,6 +197,19 @@
                         <div class="collapsible-body white white">
                             <!-- CROP -->
                             Record New Crop
+
+                            <ul class="collapsible">
+                                <li>
+                                    <div class="collapsible-header">
+                                        <i class="left green-text material-icons">expand_more</i>
+                                        Crop Types
+                                    </div>
+                                    <div id="crop-gallery-selector" class="collapsible-body row">
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <strong>Record New Crop</strong>
                             <form action="">
                                 <div class="input-field">
                                     <i class="material-icons prefix">grass</i>
@@ -216,18 +229,6 @@
                                 </div>
                             </form>
 
-
-                            <ul class="collapsible">
-                                <li>
-                                    <div class="collapsible-header">
-                                        <i class="left green-text material-icons">expand_more</i>
-                                        Crop Gallery
-                                    </div>
-                                    <div id="crop-gallery-selector" class="collapsible-body row">
-                                    </div>
-                                </li>
-                            </ul>
-
                             <div class="btn green" onclick="">
                                 <i class="material-icons left">archive</i>
                                 Save
@@ -243,7 +244,28 @@
                         </div>
                         <div class="collapsible-body white">
                             <!-- FERTILISER  -->
-                            Record New Fertiliser
+                            <div class="chip">
+                                <i class="tiny material-icons">home</i>
+                                Belmont Farm
+                            </div>
+                            <div class="chip">
+                                <i class="tiny material-icons">layers</i>
+                                Field F
+                            </div>
+                            
+                            <ul id="fert-history-list-container" class="collapsible transparent">
+                                <li>
+                                  <div class="collapsible-header">
+                                      <i class="left amber-text material-icons">history</i>History</div>
+                                  <div class="collapsible-body grey lighten-1">
+                                    
+                                    <ul id="FertiliserHistoryList" class="collapsible transparent"></ul>
+                      
+                                  </div>
+                                </li>
+                            </ul>
+
+                            <strong>Record New Fertiliser</strong>
                             <form action="">
                             
                                 <div class="input-field">
@@ -268,18 +290,6 @@
                                     <input type="text" placeholder="Tonnes">
                                     <label for="">How Much</label>
                                 </div>
-
-                                <ul id="fert-history-list-container" class="collapsible transparent">
-                                    <li>
-                                      <div class="collapsible-header">
-                                          <i class="left amber-text material-icons">expand_more</i>History</div>
-                                      <div class="collapsible-body grey lighten-1">
-                                        
-                                        <ul id="FertiliserHistoryList" class="collapsible transparent"></ul>
-                          
-                                      </div>
-                                    </li>
-                                </ul>
                 
                             </form>
 
@@ -293,7 +303,7 @@
                     <li id="header-yield">
                         <div class="collapsible-header deep-orange-text">
                             <i class="left material-icons">local_florist</i>
-                            <span class="deep-orange-text">Yield</span>
+                            <span class="deep-orange-text">Yields</span>
                         </div>
                         <div class="collapsible-body white">
                             <!-- <div class="btn deep-orange" onclick="openDrawer('soil');">
@@ -315,12 +325,6 @@
                         </div>
                     </li>
                 </ul>
-
-                <div class="card">
-                    <div class="card-content">
-                        <div class="card-title">More Content?</div>
-                    </div>
-                </div>
 
             </div>
         </div>
