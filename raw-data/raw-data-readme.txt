@@ -39,16 +39,7 @@ TracMap_Online_export_200915_0654 (1).csv
 TODO
 
 HISTORY
- latest year at top...
- amounts applied?
- date for the crop? e.g. "2014 Pak Choi)
- 
-
-
-Farm Map? (will have ha info)
-
-Requests (16/9)
-3 fields under soil tab...
+ remove KG from data storage
 
 Multiple years for a field
 show the crop too?
