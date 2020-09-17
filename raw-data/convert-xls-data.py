@@ -8,10 +8,11 @@ reader = csv.reader(f)
 
 ## perm data
 class Fert:
-    def __init__(self, name, date, area):
+    def __init__(self, name, date, area, applied): ## added applied param
         self.name = name
         self.date = date # date crop planted
         self.area = area
+        self.applied = applied ## added applied data-field
 
 class Crop:
     def __init__(self, name, date, area):
@@ -49,12 +50,12 @@ class Farm:
                         return
                 f.crops.append(Crop(cropName, cropDate, cropArea))
 
-    def addFert(self, fieldName, cropName, fertName, fertDate, fertArea):
+    def addFert(self, fieldName, cropName, fertName, fertDate, fertArea, fertApplied):
         for f in self.fields:
             if f.name == fieldName:
                 for c in f.crops:
                     if c.name == cropName:
-                        c.ferts.append(Fert(fertName, fertDate, fertArea.strip()))
+                        c.ferts.append(Fert(fertName, fertDate, fertArea.strip(), fertApplied))
 
     def print(self):
         print(self.name)
@@ -63,7 +64,7 @@ class Farm:
             for c in f.crops:
                 print('   Crop: ', c.name, c.date, c.area, 'ha')
                 for a in c.ferts:
-                    print('     Fert: ', a.name, a.date, a.area, 'ha')
+                    print('     Fert: ', a.name, a.date, a.applied, a.area, 'ha')
             
 ## extracted data preserved between row reads
 farm = None
@@ -76,6 +77,7 @@ cropArea = None
 fertDate = None
 fertName = None
 fertArea = None
+fertApplied = None ## added Applied variable 
 
 def rowEmpty(row):
     for d in row:
@@ -136,7 +138,8 @@ for row in reader:
         fertDate = row[11]
         fertName = row[4]
         fertArea = row[6]
-        farm.addFert(fieldName, cropName, fertName, fertDate, fertArea)
+        fertApplied = row[9] ## extracted Applied
+        farm.addFert(fieldName, cropName, fertName, fertDate, fertArea, fertApplied) ## added applied param
         continue
     
 
@@ -161,7 +164,7 @@ for f in farm.fields:
     for c in f.crops:
         serialCrop = {"Name": c.name, "Area": c.area, "Date": c.date, "Ferts": []}
         for a in c.ferts:
-            serialFert = {"Name": a.name, "Area": a.area, "Date": a.date}
+            serialFert = {"Name": a.name, "Area": a.area, "Date": a.date, "Applied": a.applied}
             serialCrop['Ferts'].append(serialFert)
         serialField['Crops'].append(serialCrop)
     serialFarm['Fields'].append(serialField)
