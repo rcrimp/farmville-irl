@@ -1,0 +1,566 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <title>AgriGanics</title>
+  <style>
+    .row {
+      margin-bottom: 0;
+    }
+
+    .tabs .tab a{
+      color:#000;
+    } /*Black color to the text*/
+
+    .tabs .tab a:hover {
+      background-color:lightgrey;
+      color:#000;
+    } /*Text color on hover*/
+
+    .tabs .tab a.active {
+      background-color: lightgrey;
+      color:#000;
+    } /*Background and text color when a tab is active*/
+
+    .tabs .indicator {
+      background-color: white;
+      height: 2px;
+    } /*Color of underline*/
+
+    /* .tabs-content {min-height: 200vh !important;} */
+    .tabs-content.carousel {
+      height: 100%; overflow-x:hidden; overflow-y: scroll;
+    }
+    .tabs-content.carousel .carousel-item {
+      width: 100%; height: calc(100% - 48px);
+    }
+    html,body{
+      overflow:hidden; height:100%; }
+
+    .tabs-icon {
+        font-size: 10px;
+        overflow: hidden;
+    }
+    .tabs-icon i {
+        display: block;
+        margin-top: 5px;
+        margin-bottom: -15px;
+        font-size: 24px;
+    }
+    /* .tabs-icon a.active {
+        background-color: #F3F3F3;
+    } */
+    /* OVERWRITE MATERIAL CSS MIN WIDTH FOR MOBILE */
+    .tabs .tab {
+        min-width: 50px !important
+    }
+    .tabs .tab-hide {
+          display: none;
+    }
+    .no-pd {
+        padding: 0 !important
+    }
+
+  </style>
+</head>
+<body class="grey lighten-2">
+
+  <ul id="" class="tabs-fixed-width tabs tabs-icon z-depth-1">
+    <li class="tab col s3"><a class="pink darken-1 white-text" href="#tab-window-1">
+      <i class="material-icons">home</i>Farm
+    </a></li>
+    <li class="tab col s3"><a class="deep-purple white-text" href="#tab-window-2">
+      <i class="material-icons">layers</i>Field
+    </a></li>
+    <li class="tab col s3"><a class="blue white-text" href="#tab-window-3">
+      <i class="material-icons">analytics</i>Soil Report
+    </a></li>
+    <li class="tab col s3"><a class="green white-text" href="#tab-window-4">
+      <i class="material-icons">grass</i>Crop
+    </a></li>
+    <li class="tab col s3"><a class="amber white-text" href="#tab-window-5">
+      <i class="material-icons">agriculture</i>Fertiliser
+    </a></li>
+    <li class="tab col s3"><a class="deep-orange white-text" href="#tab-window-6">
+      <i class="material-icons">local_florist</i>Yield
+    </a></li>
+  </ul>
+
+  <div id="tab-windows" class="row">
+    <div id="tab-window-1" class="transparent col s12">
+      
+      <div class="row">
+        <div class="col s8 m6 l4 offset-l4 offset-m3 offset-s2">
+
+          <div class="card">
+            <div class="card-content pink-text text-darken-1">
+              <div class="card-title">
+                <i class="left material-icons">home</i>Select farm
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+
+      <div class="row">
+        
+        <div class="col s8 m6 l4 offset-l4 offset-m3 offset-s2">
+          <div class="card">
+            <div class="card-content">
+              <div class="card-title">Bill Davidson</div>
+              <ul class="collapsible">
+                <li>
+                  <div class="collapsible-header">
+                    Croy's Farm
+                  </div>
+                  <div class="collapsible-body">
+                    <a class="btn-floating right blue"><i class="material-icons">navigate_next</i></a>
+                    <p>123 Fake St, Otago</p>
+                    <p>Leased</p>
+                  </div>
+
+                </li>
+                <li>
+                  <div class="collapsible-header">
+                    Belmont Farm
+                  </div>
+                  <div class="collapsible-body">
+                    <a class="btn-floating right blue"><i class="material-icons">navigate_next</i></a>
+                    <p>Belmont Farm, 1031 Wards Road, RD 1 , Christchurch</p>
+                    <p>Leased</p>
+                  </div>
+
+                </li>
+                <li>
+                  <div class="collapsible-header">
+                    Derret's Farm
+                  </div>
+                  <div class="collapsible-body">
+                    <a class="btn-floating right blue"><i class="material-icons">navigate_next</i></a>
+                    <p>123 Fake St, Otago</p>
+                    <p>Leased</p>
+                  </div>
+
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      
+
+      </div> <!-- end row  -->
+    </div>  <!-- end tab-window  -->
+  </div>
+  
+  <div id="tab-window-2" class="transparent col s12">
+
+    <div class="row">
+      <div class="col s8 m6 l4 offset-l4 offset-m3 offset-s2">
+        
+        <ul class="collection with-header z-depth-1">
+          
+          <li class="collection-item pink-text text-darken-1"><i class="left material-icons">home</i>Belmont Farm<span class="right">CHANGE</span></li>
+        </ul>
+
+        <div class="card">
+          <div class="card-content deep-purple-text">
+            <div class="card-title">
+              <i class="left material-icons">layers</i>Select field
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s8 m6 l4 offset-l4 offset-m3 offset-s2">
+        <div class="card">
+          <div id="FieldBlockList" class="card-content">
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <div id="tab-window-3" class="transparent col s12">
+    <div class="row">
+      <div class="col s8 m6 l4 offset-l4 offset-m3 offset-s2">
+        
+        <ul class="collection with-header z-depth-1">
+          
+          <li class="collection-item pink-text text-darken-1"><i class="left material-icons">home</i>Belmont Farm<span class="right">CHANGE</span></li>
+          <li class="collection-item deep-purple-text"><i class="left material-icons">layers</i>Field A<span class="right">CHANGE</span></li>
+        </ul>
+
+        <div class="card">
+          <div class="card-content blue-text">
+            <div class="card-title">
+              <i class="left material-icons">analytics</i>Select Soil Report
+            </div>
+          </div>
+        </div>
+ 
+      </div>
+    </div>
+
+  </div>
+
+  <div id="tab-window-4" class="transparent col s12">
+
+    <div class="row">
+      <div class="col s8 m6 l4 offset-l4 offset-m3 offset-s2">
+        
+        <ul class="collection with-header z-depth-1">
+          
+          <li class="collection-item pink-text text-darken-1"><i class="left material-icons">home</i>Belmont Farm<span class="right">CHANGE</span></li>
+          <li class="collection-item deep-purple-text"><i class="left material-icons">layers</i>Field A<span class="right">CHANGE</span></li>
+          <li class="collection-item blue-text"><i class="left material-icons">analytics</i>soil report<span class="right">CHANGE</span></li>
+        </ul>
+
+        <div class="card">
+          <div class="card-content green-text">
+            <div class="card-title">
+              <i class="left material-icons">grass</i>Select a crop
+            </div>
+          </div>
+        </div>
+ 
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s8 m6 l4 offset-l4 offset-m3 offset-s2">
+
+        <div class="card">
+          <div class="card-content">
+            <div class="card-title">
+              Record New Crop
+            </div>
+            <form action="">
+              
+              <div class="input-field">
+                <i class="material-icons prefix">grass</i>
+                <select id="crop-list-selector"></select>
+              </div>
+              
+              <div class="input-field">
+                <i class="material-icons prefix">event</i>
+                <input placeholder="Choose date" type="text" class="datepicker">
+                <label for="">Planted When?</label>
+              </div>
+
+              <div class="input-field">
+                <i class="material-icons prefix">assessment</i>
+                <input type="text" placeholder="Tonnes">
+                <label for="">Estimated Yield</label>
+              </div>
+            </form>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-content">
+            <div class="card-title">Gallery Selector</div>
+            <div id="crop-gallery-selector" class="row"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="tab-window-5" class="transparent col s12">
+    
+    <div class="row">
+      <div class="col s8 m6 l4 offset-l4 offset-m3 offset-s2">
+        
+        <ul class="collection with-header z-depth-1">
+          
+          <li class="collection-item pink-text text-darken-1"><i class="left material-icons">home</i>Belmont Farm<span class="right">CHANGE</span></li>
+          <li class="collection-item deep-purple-text"><i class="left material-icons">layers</i>Field A<span class="right">CHANGE</span></li>
+          <li class="collection-item blue-text"><i class="left material-icons">analytics</i>soil report<span class="right">CHANGE</span></li>
+          <li class="collection-item green-text"><i class="left material-icons">grass</i>Barley<span class="right">CHANGE</span></li>
+        </ul>
+
+        <div class="card">
+          <div class="card-content orange-text">
+            <div class="card-title">
+              <i class="left material-icons">agriculture</i>Select fertiliser
+            </div>
+          </div>
+        </div>
+        
+        <ul class="collapsible transparent">
+          <li>
+            <div class="collapsible-header"><h5><i class="left material-icons">history</i>History</h5></div>
+            <div class="collapsible-body grey lighten-1">
+              
+              <ul id="FertiliserHistoryList" class="collapsible transparent"></ul>
+
+            </div>
+          </li>
+        </ul>
+    
+        <div class="card">
+          <div class="card-content">
+            <div class="card-title">
+              Record New Fertiliser
+            </div>
+            <form action="">
+              
+              <div class="input-field">
+                <i class="material-icons prefix">agriculture</i>
+                <select>
+                  <option value="0" class="right">none yet</option>
+                  <option value="1" class="right">Lime</option>
+                  <option value="2" class="right">Dolomite</option>
+                  <option value="3" class="right">Sodium Sulphate</option>
+                  <option value="3" class="right">Diammonium phosphate (DAP)</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <i class="material-icons prefix">event</i>
+                <input placeholder="Choose date" type="text" class="datepicker">
+                <label for="">When?</label>
+              </div>
+
+              <div class="input-field">
+                <i class="material-icons prefix">assessment</i>
+                <input type="text" placeholder="Tonnes">
+                <label for="">How Much</label>
+              </div>
+
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="tab-window-6" class="transparent col s12">
+
+    <div class="row">
+      <div class="col s8 m6 l4 offset-l4 offset-m3 offset-s2">
+
+        <ul class="collection with-header z-depth-1">
+          
+          <li class="collection-item pink-text text-darken-1">
+            <i class="left material-icons">home</i>
+            Belmont Farm
+            <span class="right">CHANGE</span>
+          </li>
+          <li class="collection-item deep-purple-text"><i class="left material-icons">layers</i>Field A<span class="right">CHANGE</span></li>
+          <li class="collection-item blue-text"><i class="left material-icons">analytics</i>soil report<span class="right">CHANGE</span></li>
+          <li class="collection-item green-text"><i class="left material-icons">grass</i>Barley<span class="right">CHANGE</span></li>
+          <li class="collection-item orange-text"><i class="left material-icons">agriculture</i>Boron<span class="right">CHANGE</span></li>
+        </ul>
+
+        <div class="card">
+          <div class="card-content deep-orange-text">
+            <div class="card-title">
+              <i class="left material-icons">local_florist</i>Yield
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12">
+                <h5>Yield</h5>
+                <div class="row">
+                <form action="" class="col s12">
+                  <div class="input-field">
+                    <input type="text" class="datepicker">
+                    <label for="">Harvested when?</label>
+                  </div>
+
+                  <div class="input-field">
+                    <input name="yield-gross" type="text" class="">
+                    <label for="yield-gross">Yield Gross</label>
+                  </div>
+                  <div class="input-field">
+                    <input name="yield-dressed" type="text" class="">
+                    <label for="yield-dressed">Yield Dressed</label>
+                  </div>
+                  <div class="input-field">
+                    <input name="test-weight" type="text" class="">
+                    <label for="test-weight">Test Weight</label>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+  <!-- post loading scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      
+
+        /* load data */
+      $.ajax({
+        url:'data/fertiliser-data.json',
+        type:'get',
+        dataType:'json',
+          success:function(data){
+            populateFieldData(data);
+            populateFertiliserHistory(data)
+          },
+          error: function(jqXHR, textStatus, errorThrow){
+            alert(jqXHR['responseText']);
+        }
+      })
+
+      function populateFertiliserHistory(data) {
+        FieldData = data.Fields[0];
+        console.log(FieldData);
+
+        CropData = data.Fields[0].Crops;
+        for (c of CropData) {
+          let FieldRows = ''
+          for (f of c.Ferts) {
+            FieldRows += `<tr>
+              <td>${f.Name}</td>
+              <td>${f.Area} ha</td>
+              <td>${f.Date}</td>
+            </tr>`
+          }
+
+          $("#FertiliserHistoryList").append(`<li>
+            <div class="collapsible-header">
+                  <i class="left material-icons">grass</i>${c.Name}
+            </div>
+            <div class="collapsible-body grey lighten-2">
+              <div class="">Planted: ${c.Date}</div>
+              <div class="">Area: ${c.Area} ha</div>
+              <table class="highlight">
+                <thead>
+                  <tr>
+                    <th>Fertiliser</th>
+                    <th>Area</th>
+                    <th>Date</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${FieldRows}
+                </tbody>
+              </table>
+            </div>
+          </li>`);
+        }
+      }
+
+      function populateFieldData(data) {
+        let FieldRows = ''
+        for (f of data.Fields) {
+          FieldRows += `<tr>
+            <td>${f.Name}</td>
+            <td>${f.Area} ha</td>
+            <td>Unknown</td>
+            <td>${f.Crops[f.Crops.length-1].Name}</td>
+
+
+
+          </tr>`
+        }
+        
+
+        $("#FieldBlockList").append(`
+
+
+            <table class="highlight">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Area</th>
+                  <th>Soil</th>
+                  <th>Last Crop</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${FieldRows}
+              </tbody>
+            </table>
+
+        `);
+      }
+
+      /* load data */
+      $.ajax({
+        url:'data/crops.json',
+        type:'get',
+        dataType:'json',
+          success:function(data){
+            populateCropData(data);
+          },
+          error: function(jqXHR, textStatus, errorThrow){
+            alert(jqXHR['responseText']);
+        }
+      })
+
+      function populateCropData(data) {
+        let i = 0;
+        for (d of data) {
+          $("#crop-list-selector").append(`<option value=${i++} data-icon="${d.img}" class="left">${d.name}</option>`)
+          $("#crop-gallery-selector").append(`
+          <div class="col s6 m6 l4">
+            <div class="card hoverable">
+              <div class="card-image">
+                <img class="" src="${d.img}">
+              </div>
+              <div class="card-action">
+                <p class="truncate">${d.name}</p>
+              </div>
+            </div>
+          </div>`)
+        }
+
+        for (let y = 2010; y <= 2020; y++) {
+          $("#crop-year-selector").append(`<option value="${y}" class="right">${y}</option>`)
+        }
+
+        i = 0;
+        let months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        for (let m of months) {
+          $("#crop-month-selector").append(`<option value="${i++}" class="right">${m}</option>`)
+        }
+
+        $("#crop-list-selector").formSelect();
+        $("#crop-year-selector").formSelect();
+        $("#crop-month-selector").formSelect();
+      }
+
+      $('.sidenav').sidenav();
+      $('.datepicker').datepicker();
+      $('.timepicker').timepicker();
+      $('.slider').slider();
+      $('.tabs').tabs({
+        swipeable: true,
+        responsiveThreshold: Infinity,});
+      $('.tap-target').tapTarget();
+      $('.collapsible').collapsible();
+      $('select').formSelect();
+    });
+  </script>
+</body>
+</html>
