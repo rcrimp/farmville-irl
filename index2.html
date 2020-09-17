@@ -106,7 +106,6 @@
                         </div>
                         <div class="collapsible-body white">
                             <!-- BEGIN FARM -->
-                            Select a farm
                             <ul id="farm-select" class="collapsible">
                                 <li>
                                   <div class="collapsible-header">
@@ -139,7 +138,7 @@
                                   <div class="collapsible-body">
                                     <span>Address here</span>
                                     <p>Leased</p>
-                                    <div class="btn white pink darken-1" onclick="select('farm');">
+                                    <div class="btn white pink darken-1" onclick="openDrawer('field');">
                                         Select
                                         <i class="material-icons right">navigate_next</i>
                                     </div>
@@ -153,7 +152,7 @@
                                     <div class="collapsible-body">
                                         <span>Address here</span>
                                         <p>Leased</p>
-                                        <div class="btn pink darken-1" onclick="select('farm');">
+                                        <div class="btn pink darken-1" onclick="openDrawer('field');">
                                             Select
                                             <i class="material-icons right">navigate_next</i>
                                         </div>
@@ -164,14 +163,13 @@
                             <!-- END FARM -->
                         </div>
                     </li>
-                    <li id="header-field" class="active">
+                    <li id="header-field">
                         <div class="collapsible-header deep-purple-text">
                             <i class="left material-icons">layers</i>
                             <span class="deep-purple-text">Field</span>
                         </div>
                         <div class="collapsible-body white">
                             <!-- FIELD -->
-                            Select a field
                             <table id="myTable" class="highlight">
                                 <thead>
                                     <tr>
@@ -230,9 +228,9 @@
                                 </li>
                             </ul>
 
-                            <div class="btn green" onclick="select('crop');">
-                                Select
-                                <i class="material-icons right">navigate_next</i>
+                            <div class="btn green" onclick="">
+                                <i class="material-icons left">archive</i>
+                                Save
                             </div>
 
                             <!-- END CROP -->
@@ -285,9 +283,9 @@
                 
                             </form>
 
-                            <div class="btn amber" onclick="select('fert');">
-                                Select
-                                <i class="material-icons right">navigate_next</i>
+                            <div class="btn amber" onclick="">
+                                <i class="material-icons left">archive</i>
+                                Save
                             </div>
                             <!-- END FERTILISER -->
                         </div>
@@ -298,16 +296,16 @@
                             <span class="deep-orange-text">Yield</span>
                         </div>
                         <div class="collapsible-body white">
-                            <div class="btn deep-orange" onclick="select('yield');">
+                            <!-- <div class="btn deep-orange" onclick="openDrawer('soil');">
                                 Select
                                 <i class="material-icons right">navigate_next</i>
-                            </div>
+                            </div> -->
                         </div>
                     </li>
                     <li id="header-soil">
                         <div class="collapsible-header blue-text">
                             <i class="left material-icons">analytics</i>
-                            <span class="blue-text">Soil Report</span>
+                            <span class="blue-text">Soil Reports</span>
                         </div>
                         <div class="collapsible-body white">
                             <div class="btn blue" onclick="select('soil');">
@@ -362,10 +360,10 @@
                     }
                 })
             });
-            function select(string) {
+            function openDrawer(string) {
                 var instance = M.Collapsible.getInstance($('#headers'));
                 let nextTab = {
-                    'farm': 1, 'field': 2, 'crop': 3, 'fert': 4, 'yield': 5, 'soil': 6
+                    'farm': 0, 'field': 1, 'crop': 2, 'fert': 3, 'yield': 4, 'soil': 5
                 }
                 instance.open(nextTab[string]);
             }
@@ -395,10 +393,10 @@
                     <td>${f.Area} ha</td>
                     <td>${f.Crops[f.Crops.length-1].Name}</td>
                     <td>
-                        <div class="btn btn-small btn-floating green" onclick="select('field');">
+                        <div class="btn btn-small btn-floating green" onclick="openDrawer('crop');">
                             <i class="material-icons">grass</i>
                         </div>
-                        <div class="btn btn-small btn-floating amber" onclick="select('crop');">
+                        <div class="btn btn-small btn-floating amber" onclick="openDrawer('fert');">
                             <i class="material-icons">agriculture</i>
                         </div>
                         
