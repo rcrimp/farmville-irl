@@ -420,10 +420,13 @@
             function populateFieldData(data) {
                 let FieldRows = ''
                 for (f of data.Fields) {
-                FieldRows += `<tr>
+                    lastCropName = f.Crops[f.Crops.length-1].Name;
+                    FieldRows += `<tr>
                     <td>${f.Name}</td>
                     <td>${f.Area} ha</td>
-                    <td>${f.Crops[f.Crops.length-1].Name}</td>
+                    <td>
+                        ${lastCropName.substring(0, 15)}    
+                    </td>
                     <td>
                         <div class="btn btn-small btn-floating green" onclick="openDrawer('crop');">
                             <i class="material-icons">grass</i>
