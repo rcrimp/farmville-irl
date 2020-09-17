@@ -412,7 +412,8 @@
                 FieldData = data.Fields[0];
                 console.log(FieldData);
 
-                CropData = data.Fields[0].Crops;
+                /* reverse crop data: recent -> earliest */ 
+                CropData = data.Fields[0].Crops.reverse();
                 for (c of CropData) {
                 let FieldRows = ''
                 for (f of c.Ferts) {
