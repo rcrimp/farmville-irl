@@ -425,7 +425,9 @@
 
                 $("#FertiliserHistoryList").append(`<li>
                     <div class="collapsible-header">
-                        <i class="left material-icons">grass</i>${c.Name}
+                        <i class="left material-icons">grass</i>
+                        20${c.Date.substring(c.Date.length-2, c.Date.length)}
+                        ${c.Name}
                     </div>
                     <div class="collapsible-body grey lighten-2">
                     <div class="">Planted: ${c.Date}</div>
